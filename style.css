@@ -20,7 +20,7 @@ body {
 
 .container {
   max-width: 640px;
-  margin: 50px auto;
+  margin: 30px auto;
   background-image: linear-gradient(to right, #ECE9E6 0%, #d7d3d3  51%, #ECE9E6  100%);
   padding: 20px;
   border-radius: 10px;
@@ -40,7 +40,7 @@ form input, form label, form button {
 form input {
   font-size: 24px;
   height: 50px;
-  padding: 0 20px;
+  padding: 0 15px;
 }
 
 form input:focus {
@@ -74,4 +74,23 @@ form button:hover {
   background: rgb(255, 150, 150) ;
   padding: 10px 20px;
   border-radius: 4px;
+}
+
+@media screen and (max-width: 414px) {
+  body {
+
+    width: 400px;
+    padding-left: 12px;
+  }
+  
+}
+
+@media screen and (max-width: 375px) {
+  body { 
+    
+    width: 360px;
+    padding-left: 15px;
+    font-size: 17px;
+  };
+
 }
