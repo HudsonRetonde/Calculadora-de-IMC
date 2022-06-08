@@ -1,57 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Calculadora de IMC</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <section class="container">
+      <h1>Tabela IMC</h1>
 
-<body>
-
-  <section class="container">
-    <h1>Tabela IMC</h1>
-
-    <div class="texto">
-      <div class="_coluna-imc">
-        <h2>IMC</h2>
-        <p>Menos que 18,5</p>
-        <p>Entre 18,5 e 24,9</p>
-        <p>Entre 25 e 29,9</p>
-        <p>Entre 30 e 34,9</p>
-        <p>Entre 35 e 39,9</p>
-        <p>Mais que 40</p>
+      <div class="texto">
+        <div class="_coluna-imc">
+          <h2>IMC</h2>
+          <p>Menos que 18,5</p>
+          <p>Entre 18,5 e 24,9</p>
+          <p>Entre 25 e 29,9</p>
+          <p>Entre 30 e 34,9</p>
+          <p>Entre 35 e 39,9</p>
+          <p>Mais que 40</p>
+        </div>
+        <div class="_coluna-resultado">
+          <h2>Resultado</h2>
+          <p>Abaixo do peso</p>
+          <p>Peso normal</p>
+          <p>Sobrepeso</p>
+          <p>Obesidade grau 1</p>
+          <p>Obesidade grau 2</p>
+          <p>Obesidade grau 3</p>
+        </div>
       </div>
-      <div class="_coluna-resultado">
-        <h2>Resultado</h2>
-        <p>Abaixo do peso</p>
-        <p>Peso normal</p>
-        <p>Sobrepeso</p>
-        <p>Obesidade grau 1</p>
-        <p>Obesidade grau 2</p>
-        <p>Obesidade grau 3</p>
-      </div>
-    </div>
-    <h2>Calcule seu IMC</h2>
+      <h2>Calcule seu IMC</h2>
 
-    <form action="/" class="form" method="POST" id="formulario">
-        
-      <label for="peso">Peso:</label>
-      <input type="text" id="peso" name="peso">
+      <form action="/" class="form" method="POST" id="formulario">
+        <label for="peso">Peso:</label>
+        <input type="text" id="peso" name="peso" />
 
-      <label for="altura">Altura:</label>
-      <input type="text" id="altura" name="altura">
+        <label for="altura">Altura:</label>
+        <input type="text" id="altura" name="altura" />
 
-      <button type="submit">Enviar</button>
-    </form>
+        <button type="submit">Enviar</button>
+      </form>
 
-    <div id="resultado"></div>
-    
-  </section> 
+      <div id="resultado"></div>
+    </section>
 
-  <script src="main.js"></script>
-</body>
-
+    <script src="main.js"></script>
+  </body>
 </html>
