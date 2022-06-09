@@ -1,0 +1,25 @@
+{
+  "name": "calculadora-de-imc",
+  "version": "1.0.0",
+  "description": "Calculadora em JavaScript de IMC",
+  "main": "main.js",
+  "devDependencies": {
+    "cypress": "^10.0.3",
+    "serve": "^13.0.2"
+  },
+  "scripts": {
+    "cypress": "cypress open",
+    "serve": "serve ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HudsonRetonde/Calculadora-de-IMC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HudsonRetonde/Calculadora-de-IMC/issues"
+  },
+  "homepage": "https://github.com/HudsonRetonde/Calculadora-de-IMC#readme"
+}
